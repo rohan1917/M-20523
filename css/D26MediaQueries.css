@@ -1,0 +1,79 @@
+/* Syntax */
+/* @media only screen and (max-width: 450px){
+    h3{
+
+    }
+    p{
+
+    }
+} */
+
+
+
+
+
+/* The styles will be reflected only when the screen size <=1200px */
+/* @media only screen and (max-width: 1200px){
+    h3{
+        color: red;
+        font-size: 20px;
+    }
+    p{
+        color: red;
+        font-size: 60px;
+    }
+} */
+
+/* The styles will be reflected only when the screen size <=800px */
+/* @media only screen and (max-width: 800px){
+    h3{
+        color: yellow;
+    }
+    p{
+        color: yellow;
+    }
+} */
+
+/* The styles will be reflected only when the screen size <=400px */
+/* @media only screen and (max-width: 400px){
+    h3{
+        color: aqua;
+    }
+    p{
+        color: aqua;
+    }
+} */
+
+
+@media only screen and (min-width: 44px){
+    h3, p{
+        color: aqua;
+    } 
+}
+
+/* The styles will be reflected only when the screen size >=400px */
+@media only screen and (min-width: 600px){
+    h3, p{
+        color: red;
+    } 
+}
+
+
+/* The styles will be reflected only when the screen size >=800px */
+@media only screen and (min-width: 800px){
+    h3, p{
+        color: yellow;
+    } 
+}
+
+
+/* The styles will be reflected only when the screen size >=1200px */
+@media only screen and (min-width: 1200px){
+    h3, p{
+        color: aqua;
+    } 
+}
+
+
+
+

@@ -1,0 +1,54 @@
+button{
+    font-size: large;
+}
+
+/* 
+    1. Hover State:
+            >> Pointing the cursor on a button
+*/
+#rk:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+/* 
+    2. Active state:
+            >> When we hold left key/button of the mouse, indicates its in a active stae
+*/
+button:active{
+    border: 10px solid darkblue
+}
+
+
+/* 
+    3. Focus State:
+            >> Indicating that we already visited/clicked on that btn
+*/
+button:focus{
+    background-color: greenyellow;
+    color: crimson;
+}
+
+
+
+
+/* anchor:hover */
+a:hover{
+    color: red;
+}
+
+/* a:active{
+    color: green
+} */
+
+
+/* a:focus{
+    color: green;
+} */
+
+
+a:visited{
+    color: yellow;
+}

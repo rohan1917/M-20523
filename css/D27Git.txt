@@ -1,0 +1,43 @@
+Git
+    >> Version Control
+    >> It is distributed (on cloud)
+    >> collabaration
+    >> Tracking Changes
+    >> Recovery
+
+
+https://git-scm.com/
+
+github
+gitbash
+bitbucket
+gitpod
+hitlabs
+
+
+Offline VS Code Setup
+
+git config --global user.name "rohan1917"
+git config --global user.email ""
+
+git init
+
+git remote add origin https://github.com/rohan1917/106232052310523-1.git
+
+
+
+Offline VS Code
+    >> index.html
+    >> style.css
+
+Staging (We make our changes ready to be uploaded)
+
+git add . (all files)
+git add index.html style.css (git add fileName1 fileName2 ....)
+
+git status (red (failure) /green (success))
+
+git commit -m "added index.html n style.css"
+
+git push origin master (master/main)
+

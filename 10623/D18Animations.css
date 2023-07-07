@@ -1,0 +1,60 @@
+button{
+    background-color: black;
+    color: aqua;
+    margin: 25px;
+    padding: 15px;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Transition Property */
+    /* transition-delay: 250ms;
+    transition-duration: 700ms;
+    transition-property: background-color color; */
+    /* linear / ease / ease-in / ease-out / ease-in-out /  */
+    /* transition-timing-function: cubic-bezier(0.55, 1.26, 0.9, 0.01); */
+
+    transition: all cubic-bezier(0.55, 1.26, 0.9, 0.01) 250ms 700ms;
+}
+
+button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+
+.parent{
+    background-color: black;
+    height: 100vh;
+    /* width: 100vw; */
+}
+
+.circle{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.circle:hover{
+    animation: moveTheBall 10s;
+}
+
+@keyframes moveTheBall{
+    25%{
+        transform: translate(500px, 0);
+    }
+    50%{
+        transform: translate(500px, 500px);
+        height: 150px;
+        width: 150px;
+        border-radius: 10%;
+        background-color: pink;
+    }
+    75%{
+        transform: translate(0, 500px);
+        background-color: blue;
+        border-radius: 1%;
+    }
+    100%{
+        transform: translate(0, 350px);
+    }
+}

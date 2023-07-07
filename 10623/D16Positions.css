@@ -1,0 +1,123 @@
+/* static (default) */
+/* .positionsInCss{
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+    position: static;
+    top: 12px;
+    left: 15px;
+} */
+
+
+/* relative */
+/* .positionsInCss{
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+    position: relative;
+    bottom: 50px;
+    right: 25px;
+} */
+
+
+ /* .dummy{
+    position: relative;
+    top: 15px;
+    left: 40px;
+    border: 2px solid black;
+ } */
+
+/* .positionsInCss{
+    height: 120px;
+    width: 120px;
+    color: yellow;
+    background-color: black;
+    border: 2px solid red;
+    position: relative;
+    bottom: 50px;
+    right: 25px; 
+    top: 22px;
+    left: 50px;
+} 
+*/
+
+/* absolute */
+/* .parent{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: relative;
+} */
+
+/* .positionsInCss{
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: black;
+    border: 2px dotted red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
+
+/* .positionsInCss2{
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: black;
+    border: 2px dotted red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.positionsInCss3{
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: black;
+    border: 2px dotted red;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+
+/* fixed */
+/* .positionsInCss{
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: black;
+    border: 2px dotted red;
+    position: fixed;
+    top: 40px;
+    left: 40px;
+} */
+
+/* .fixed{
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: black;
+    border: 2px dotted red;
+    position: fixed;
+    position: sticky;
+    top: 140px;
+    left: 140px;
+} */
+
+
+
+
+/* sticky */
+.positionsInCss{
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: black;
+    border: 2px dotted red;
+    position: sticky;
+    top: 40px;
+    left: 40px;
+}

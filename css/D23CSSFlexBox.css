@@ -1,0 +1,30 @@
+.parentClass{
+    background-color: black;
+    color: blue;
+    display: flex;  
+    
+     /*flex-direction: row / row-reverse / column / cloumn-reverse  */
+    flex-direction: column-reverse;
+
+    gap: 80px;
+
+    /* x-axis */
+    /* justify-content: center / flex-start / flex-end / space-around / space-between / space-evenly*/
+    /* justify-content: space-evenly; */
+
+    /* y-axis */
+    /* align-items: center / flex-start / flex-end; */
+    /* align-items: center; */
+}
+
+
+ .childClass{
+    height: 120px;
+    width: 120px;
+    flex: 1;
+    background-color: yellow;
+    border: 1px solid red;
+} 
+
+
+

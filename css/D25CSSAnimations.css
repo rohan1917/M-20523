@@ -1,0 +1,62 @@
+.box{
+    background-color: black;
+    height: 100vh;
+}
+
+.circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.circle:hover{
+    animation: startShifting 5s ;
+}
+
+/* .box:hover{
+    cursor: pointer;
+} */
+/* 
+const num = 10
+var num = 0.5
+o/p = *
+10*1= 10
+-10
+
+*/
+
+
+
+
+
+/* 25/100*5 */
+@keyframes startShifting{
+    80%{
+        transform: translate(500px, 0);
+    }
+    40%{
+        transform: translate(500px, 300px);
+        background-color: yellow;
+        border-radius: 10%;
+    }
+  60%{
+    transform: translate(0,300px);
+  }
+  50%{
+    transform: translate(0, 0);
+  }
+}
+
+
+/* o.25*5 */
+/* 0.5*5 */
+/* 0.75*5 */
+/* 1*5 */
+
+
+/* 
+media queries 
+project
+
+*/

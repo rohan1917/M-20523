@@ -1,0 +1,64 @@
+/* 1. Element Selector */
+/* p{
+    color: white;
+    background-color: black;
+} */
+
+/* h6{
+    color: yellow;
+} */
+
+/* 2. Universal Selector */
+/* *{
+    color: yellow;
+    background-color:violet
+} */
+
+/* 3. Element Selector List */
+/* p, h6, h5, h4, h1, body{
+    color: aqua;
+    background-color: black;
+} */
+/* 
+*{
+    color: aqua;
+    background-color: black;
+} */
+
+/* h6{
+    color: aqua;
+    background-color: black;
+} */
+
+
+/* *{
+    color: white;
+    background-color: black;
+} */
+
+
+/* 4. ID Selector */
+/* #idP{
+    color: red;
+} */
+
+/* 5. Class Selector */
+/* .classP4NP6{
+    color: aqua;
+    background-color: black;
+} */
+
+
+
+/*  6. Descendant Selector */
+/* ul a{
+    color: red;
+} */
+
+
+/* 7. Direct Child Selector */
+/* div > h6{
+    color: green;
+    background-color: aqua;
+} */
+

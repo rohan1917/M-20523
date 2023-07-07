@@ -1,0 +1,68 @@
+/* 
+    Hover State:
+        >> Pointing cursor on that particular elem (here the elem is btn elem/tag)
+*/
+button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+/* 
+    Active State (Left Key):
+        >> When we click on left btn of our mouse
+ */
+#btnId:active{
+    border: 2px solid red;
+}
+
+
+/* 
+    Focus State:
+        >> When we click on the btn elem 
+ */
+.btnClass:focus{
+    background-color: aqua;
+    color: black;
+    cursor: progress;
+}
+
+
+/* First Child */
+div:first-child{
+    background-color: yellow;
+}
+
+
+
+/* Last Child */
+.childClass:last-child{
+    background-color: red;
+}
+
+
+/* nth Child */
+.childClass:nth-child(4){
+    background-color: orange;
+}
+
+
+.childClass:nth-child(6){
+    background-color: green;
+}
+
+
+/* .childClass:nth-child(1){
+    background-color: red;
+} */
+
+
+
+/* Pseduo Elements */
+h2::before{
+    content: "hey hi ";
+}
+
+h2::after{
+    content: " everyone";
+}

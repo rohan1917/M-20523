@@ -1,0 +1,69 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+
+/* Block */
+.displayInCSS1{
+    background-color: yellow;
+    color: blue;
+    height: 55px;
+    
+    display: block;
+}
+
+.displayInCSS2{
+    background-color: aqua;
+    color: red;
+    height: 22px;
+    display: block;
+}
+
+
+
+/* Inline CSS */
+
+
+/* 
+ .p2{
+                background-color: bisque;
+                display: inline;
+                height: 1000px;
+            }
+
+*/
+.displayInCSS3{
+    background-color: yellow;
+    color: blue;
+    /* height: 55px;
+    width: 60px; */
+    display: inline;
+    height: 100px;
+}
+
+.displayInCSS4{
+    background-color: aqua;
+    color: red;
+    /* height: 22px;
+    width: 60px; */
+    display: inline;
+}
+
+
+
+
+/* Inline-block */
+.displayInCSS5{
+    background-color: yellow;
+    color: blue;
+    display: inline-block;
+    height: 40px;
+    /* width: 90px; */
+}
+
+.displayInCSS6{
+    background-color: aqua;
+    color: red;
+    display: inline-block;
+}

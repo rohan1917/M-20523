@@ -1,0 +1,82 @@
+/* Pseudo Classes */
+/* first child */
+/* span:first-child{
+    color: yellow;
+} */
+
+
+/* last child */
+/* span:last-child{
+    color: pink;
+} */
+
+
+/* nth child */
+/* 
+.child:nth-child(2)
+.child:nth-child(odd)
+.child:nth-child(even)
+*/
+/* .child:nth-child(odd){
+    color: red;
+} */
+
+/* Pseduo Elements */
+/* h4::before{
+    content: "hi guys";
+} */
+
+/* h4::after{
+    content: " g'evening all and thanks for joining";
+} */
+
+
+.colors{
+    margin: 100px;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.colors::before{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    content: "    ---- 1 ";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* 10cm-8cm=2cm
+1km-8cm=
+calc() */
+
+
+
+.colors::after{
+    width: 50%;
+    height: 50%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: yellow;
+    content: "           -----2 ";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* 
+Units:
+        >> px: pixel
+        >> %
+        >> rem
+        >> em
+        >> vh: view height
+        >> vw: view width
+ */

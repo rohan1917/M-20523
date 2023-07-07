@@ -1,0 +1,24 @@
+.parentFlex{
+    background-color: black;
+    color: yellow;
+    display: flex;
+    /* row or row-reverse or column or column-reverse*/
+    /* flex-direction: column-reverse; */
+    /* gap: 45px; */
+    
+    /* Row or x-axis */
+    /* flex-start or flex-end or center or space-around or space-between or space-evenly */
+    /* justify-content: flex-end; */
+
+    /* Column or y-axis */
+    /* flex-start or  flex-end or center or */
+    align-items: flex-end;
+    
+}
+
+
+
+/* animations */
+/* media queires */
+/* tue - git */
+/* wed - proj on html n css */

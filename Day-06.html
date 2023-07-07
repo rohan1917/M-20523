@@ -1,0 +1,114 @@
+<!-- Lists n Tables -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lists n Tables</title>
+    </head>
+    <body>
+        <!-- List -->
+        <h4>Ordered List</h4>
+        <!-- 1. Ordered List (OL)-->
+        <!-- type: 1 (default), A, a, I, i -->
+        <ol type="a" start="5">
+            <!-- li: line items -->
+            <li>MERN</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Python</li>
+        </ol>
+
+        <hr />
+
+        <h4>Unordered Lists</h4>
+        <!-- UL: Unordered List -->
+        <!-- type: disc (default), circle, square, none -->
+        <ul type="none">
+            <li>MERN</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Python</li>
+        </ul>
+
+        <hr/>
+
+        <!-- Nested List -->
+        <h4>Nested List</h4>
+        <ol type="A">
+            <li>MERN</li>
+            <ul type="square">
+                <li>Java</li>
+                <li>C++</li>
+            </ul>
+            <li>Python</li>
+        </ol>
+
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <ol>
+                <li>three</li>
+                <li>four</li>
+            </ol>
+            <li>five</li>
+            <li>six</li>
+        </ul>
+
+        <hr />
+
+        <h4>Description/Definition List</h4>
+        <!-- dl: description list -->
+        <dl>
+            <!-- dt: description term -->
+            <dt>MERN Tech</dt>
+            <!-- dd: description definition -->
+            <dd>Its a full stack web based technology</dd>
+
+            <dt>JS</dt>
+            <dd>JavaScript</dd>
+
+            <dt>PY</dt>
+            <dd>Python</dd>
+        </dl>
+
+        <hr />
+
+        <h4>Tables</h4>
+        <table border="1">
+            <!-- tr: table row -->
+            <tr>
+                <!-- th: table heading -->
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+                <th>Column 4</th>
+            </tr>
+            <tr>
+                <!-- td: table data -->
+                <td rowspan="1">Row 1 & Column 1</td>
+                <!-- rowspan: merging rows -->
+                <td rowspan="1">Row 1 & Column 2</td>
+                <td>Row 1 & Column 3</td>
+                <td>Row 1 & Column 4</td>
+            </tr>
+            <tr>
+                <td>Row 2 & Column 1</td>
+                <td colspan="20">Row 2 & Column 2</td>
+                <!-- <td>Row 2 & Column 3</td> -->
+                <!-- <td>Row 2 & Column 4</td> -->
+            </tr>
+            <tr>
+                <td>Row 3 & Column 1</td>
+                <td>Row 3 & Column 2</td>
+                <td>Row 3 & Column 3</td>
+                <td>Row 3 & Column 4</td>
+            </tr>
+            <tr>
+                <td>Row 4 & Column 1</td>
+                <td>Row 4 & Column 2</td>
+                <td>Row 4 & Column 3</td>
+                <td>Row 4 & Column 4</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
