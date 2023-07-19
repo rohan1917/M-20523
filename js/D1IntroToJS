@@ -1,0 +1,60 @@
+Getting started with JS:
+
+Data types:
+    1. Primitive Data types
+    2. Non-Primitive Data types
+
+1. Primitive Data Types:
+    Character (char) 'r'
+    String "rohan kinnal"
+    Number 24
+    int, bigint, shortInt, Long, float, double
+    Boolean (T or F)
+    Null (empty)
+    Undefined (does not exist or defined ) 
+
+
+
+var a = Null;
+
+
+var a = "rohan kinnal"
+
+a =25;
+
+
+
+
+Variable 
+int a = "rohan kinnal";
+
+Single Line Comment
+//
+
+Multiple Line Comments
+/* 
+
+*/
+
+
+Documentation
+/**
+
+*/
+
+var, let, const
+var name = "rohan kinnal"
+var age = 24
+
+
+age = 26+2;
+
+
+var age = 26;
+age = "rohan"
+
+
+var isgud = true
+
+
+
